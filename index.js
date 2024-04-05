@@ -112,14 +112,14 @@ document.body.append(container,h1)
 
 function clearScreen(){
 
-    alert("Hello")
+    
     document.getElementById('result').value = ''
 
 }
 
 function display(val){
 
-    alert("test")
+   
     document.getElementById('result').value += val
 
     return val
